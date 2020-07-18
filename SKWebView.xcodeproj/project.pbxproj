@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06B100AB24C321E5003237CB /* WDWebModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B100A724C321E5003237CB /* WDWebModel.h */; };
-		06B100AC24C321E5003237CB /* WDWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B100A824C321E5003237CB /* WDWebView.h */; };
+		06B100AB24C321E5003237CB /* WDWebModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B100A724C321E5003237CB /* WDWebModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06B100AC24C321E5003237CB /* WDWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B100A824C321E5003237CB /* WDWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06B100AD24C321E5003237CB /* WDWebModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B100A924C321E5003237CB /* WDWebModel.m */; };
 		06B100AE24C321E5003237CB /* WDWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B100AA24C321E5003237CB /* WDWebView.m */; };
 /* End PBXBuildFile section */
@@ -283,6 +283,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SiKong.SKWebView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -308,6 +309,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SiKong.SKWebView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
